@@ -13,8 +13,10 @@ const config: Config = {
         foreground: "var(--foreground)",
         prlavender: "#7456FF",
         bgmedsos: "#110F19",
-        prgraay: "#999999",
-        trblack: "#131313"
+        prgraay: "#707070",
+        trblack: "#131313",
+        srblack: "#0F0F0F",
+        srgray: "#999999"
       },
       backgroundImage: {
         "heropattern": "url('https://res.cloudinary.com/dkszgncal/image/upload/Porto-upan/j3yufjxp9fdvh28havn0.jpg)",
