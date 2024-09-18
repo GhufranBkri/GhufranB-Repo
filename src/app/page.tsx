@@ -1,7 +1,8 @@
 import DecorativeSVG from './components/icon/DecorativeSVG';
 import { datacontent } from './data/content';
 import SwiperComponent from './components/slider/SwiperComponent'; // Import the Swiper component
-import WorkaholicLogo from "./Images/Workaholic.svg";
+import WorkaholicLogo from "./public/Images/Workaholic.svg";
+import placeHolder from "./public/Images/placeHolderProject.png";
 import ProjectCard from './components/ProjectCard/ProjectCard';
 import WorkaholicComponent from './components/hireComponent/WorkaholicComponent';
 
@@ -77,7 +78,7 @@ export default function Home() {
       </div>
 
       {/* Portfolio */}
-      <div className="bg-[url('.//Images/background1.png')] flex flex-row gap-5 mt-60 w-full h-[440px] items-center justify-center   ">
+      <div className="bg-[url('https://res.cloudinary.com/dkszgncal/image/upload/Porto-upan/j3yufjxp9fdvh28havn0.jpg')] flex flex-row gap-5 mt-60 w-full h-[440px] items-center justify-center ">
         <div className="bg-black bg-opacity-45 w-72 h-64 flex flex-col gap-2 text-center justify-center border-stone-500 hover:bg-[#7456FF] hover:bg-opacity-45 hover:border-none rounded-xl border-2 border-inherit border-spacing-2">
           <p className="text-5xl opacity-100 font-semibold">05</p>
           <p className="text-xl opacity-100">Clients Order</p>
@@ -109,7 +110,7 @@ export default function Home() {
       <div className="flex flex-col gap-12 ">
 
         <ProjectCard
-          imgBg="./Images/placeHolderProject.png"
+          imgBg={placeHolder}
           title="DaurUang Mobile Apps"
         />
 

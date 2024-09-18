@@ -17,7 +17,7 @@ const config: Config = {
         trblack: "#131313"
       },
       backgroundImage: {
-        "heropattern": "url('/images/background1.png')",
+        "heropattern": "url('https://res.cloudinary.com/dkszgncal/image/upload/Porto-upan/j3yufjxp9fdvh28havn0.jpg)",
       },
     },
   },
